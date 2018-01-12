@@ -18,3 +18,7 @@ $("#signup").on("click", function() {
 		$("#errorMessage").text("");
 	}
 }) 
+
+$(".dropdown-item").on("click", function() {
+	$("#content").text($(this).text());
+})

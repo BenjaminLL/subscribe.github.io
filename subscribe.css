@@ -6,7 +6,8 @@ body {
 }
 
 .container {
-	width: 720px;
+	max-width: 720px;
+	width: 90%;
 	margin-top: 70px;
 	padding: 0;
 }
@@ -40,9 +41,10 @@ hr + div {
 	float: left;
 }
 
-#t {
+.btn-group {
 	width: 30%;
 	margin-right: 0;
+	float: right;
 }
 
 #errorMessage {
@@ -80,4 +82,32 @@ hr + div {
 
 #unsubscribe:hover {
 	color: #7B7B7B;
+}
+
+.btn-group button {
+	background-color: white;
+	color: #7B7B7B;
+	float: right;
+}
+
+.btn-group button:hover {
+	background-color: white;
+	color: #7B7B7B;
+}
+
+.btn-group button:focus {
+	outline: none;
+}
+
+#dropdown {
+	width: 20%;
+}
+
+#content {
+	width: 80%;
+}
+
+input[type="text"]::placeholder {
+	font-family: Helvetica;
+	font-size: 16px;
 }
