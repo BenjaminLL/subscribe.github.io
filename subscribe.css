@@ -1,0 +1,83 @@
+body {
+	background-color: #000639;
+	font-family: Helvetica;
+	height: 100%;
+	size: 100%;
+}
+
+.container {
+	width: 720px;
+	margin-top: 70px;
+	padding: 0;
+}
+
+h1 {
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+hr {
+	background-color: #7AB55C;
+	width:  40px;
+	margin-left: 0;
+	border-top: 3px solid rgba(0,0,0,0.1);
+}
+
+hr + div {
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#type {
+	color: #7B7B7B;
+}
+
+#e {
+	width: 65%;
+	margin-right: 5%;
+	float: left;
+}
+
+#t {
+	width: 30%;
+	margin-right: 0;
+}
+
+#errorMessage {
+	color: #C23628;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	height: 17px;
+}
+
+
+#signup {
+	margin-top: 35px;
+	background-color: #5c6ac4;
+	color: #FFFFFF;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+#unsubscribe {
+
+	display: block;
+	margin: 250px auto 0 auto;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+	background: none;
+	border: none;
+	color: #FFFFFF;
+	text-decoration: underline;
+	border: none;
+}
+
+#unsubscribe:focus {
+	outline: none;
+}
+
+#unsubscribe:hover {
+	color: #7B7B7B;
+}
